@@ -52,7 +52,3 @@ typings/
 
 # Output of 'npm pack'
 *.tgz
-
-# Ignore lock files
-package-lock.json
-yarn.lock
