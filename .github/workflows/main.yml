@@ -17,14 +17,14 @@ jobs:
         with:
           persist-credentials: false
 
-      - name: Install Dependencies
+      - name: Install Dependencies 💿
         run: npm ci
 
-      - name: Run Linter
+      - name: Run Linter ⚡
         run: npm run lint
         
-      - name: Run tests
+      - name: Run tests ✅
         run: npm run test
         
-      - name: Compile Typecript
+      - name: Compile Typecript 🔨
         run: npm run build
